@@ -2255,3 +2255,799 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.29-15.25.42:536][441]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
 [2023.09.29-15.25.42:576][441]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
 [2023.09.29-15.25.42:647][442]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.09.29-15.32.20:700][512]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-15.32.20:848][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Turret" FILE="D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Content/BP_Turret.uasset" SILENT=true
+[2023.09.29-15.32.20:859][512]LogSavePackage: Moving output files for package: /Game/BP_Turret
+[2023.09.29-15.32.20:859][512]LogSavePackage: Moving 'D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Saved/BP_Turret9B845CBA42707B88CAEE229968ACE51E.tmp' to 'D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Content/BP_Turret.uasset'
+[2023.09.29-15.32.20:869][512]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 858 ms)
+[2023.09.29-15.32.20:874][512]AssetCheck: New page: Asset Save: BP_Turret
+[2023.09.29-15.32.20:874][512]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_Turret.BP_Turret
+[2023.09.29-15.32.24:166][695]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.29-15.32.24:174][695]LogContentBundle: [Tutorial3Scene(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.29-15.32.24:174][695]LogWorldPartition: Display: GenerateStreaming for 'Tutorial3Scene' started...
+[2023.09.29-15.32.24:300][695]LogWorldPartition: Display: GenerateStreaming for 'Tutorial3Scene' took 126 ms (total: 910 ms)
+[2023.09.29-15.32.24:301][695]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.09.29-15.32.24:301][695]LogPlayLevel: [PlayLevel] Compiling BP_Turret before play...
+[2023.09.29-15.32.24:348][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.09.29-15.32.24:350][695]LogPlayLevel: PlayLevel: Blueprint regeneration took 49 ms (1 blueprints)
+[2023.09.29-15.32.24:350][695]PIE: New page: PIE session: Tutorial3Scene (Sep. 29, 2023, 7:32:24 a.m.)
+[2023.09.29-15.32.24:350][695]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial3Scene
+[2023.09.29-15.32.24:362][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010834s)
+[2023.09.29-15.32.24:362][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial3Scene.Tutorial3Scene to /Game/UEDPIE_0_Tutorial3Scene.Tutorial3Scene (0.010863s)
+[2023.09.29-15.32.24:376][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.09.29-15.32.24:376][695]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.29-15.32.24:378][695]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.29-15.32.24:378][695]LogAIModule: Creating AISystem for world Tutorial3Scene
+[2023.09.29-15.32.24:379][695]LogWorldPartition: ULevel::OnLevelLoaded(Tutorial3Scene)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.29-15.32.24:379][695]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.29-15.32.24:379][695]LogWorldPartition: UWorldPartition::Initialize : World = Tutorial3Scene, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.29-15.32.24:379][695]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.29-15.32.24:382][695]LogContentBundle: [Tutorial3Scene(Standalone)] Creating new contrainer.
+[2023.09.29-15.32.24:382][695]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 3.42 sec)
+[2023.09.29-15.32.24:382][695]LogPlayLevel: PIE: World Init took: (0.004483s)
+[2023.09.29-15.32.24:382][695]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.09.29-15.32.24:382][695]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.29-15.32.24:382][695]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.29-15.32.24:382][695]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.29-15.32.24:382][695]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.29-15.32.24:382][695]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.29-15.32.24:382][695]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.29-15.32.24:382][695]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.29-15.32.24:382][695]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.29-15.32.24:383][695]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.29-15.32.24:383][695]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.29-15.32.24:383][695]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.29-15.32.24:385][695]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.29-15.32.24:425][695]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.29-15.32.24:425][695]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.29-15.32.24:425][695]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.29-15.32.24:425][695]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.29-15.32.24:426][695]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.09.29-15.32.24:426][695]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.09.29-15.32.24:428][695]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.09.29-15.32.24:428][695]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.09.29-15.32.24:428][695]LogInit: FAudioDevice initialized with ID 6.
+[2023.09.29-15.32.24:428][695]LogAudio: Display: Audio Device (ID: 6) registered with world 'Tutorial3Scene'.
+[2023.09.29-15.32.24:428][695]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.09.29-15.32.24:431][695]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.29-15.32.24:431][695]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial3Scene.Tutorial3Scene up for play (max tick rate 60) at 2023.09.29-11.32.24
+[2023.09.29-15.32.24:432][695]LogWorld: Bringing up level for play took: 0.000646
+[2023.09.29-15.32.24:433][695]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.09.29-15.32.24:434][695]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2023.09.29-15.32.24:434][695]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2023.09.29-15.32.24:438][695]LogStreaming: Display: FlushAsyncLoading(): 63 QueuedPackages, 0 AsyncPackages
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/F/12/J71GLMN3D2HH4XCJYS499W.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/WC/LA0LW6OVI8JCSKA8296MIZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/PM/EHMUZLHPCGMWTX477UU6CH.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/PM/EHMUZLHPCGMWTX477UU6CH.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/E6/J9TZR9BPAR6HGJH9UG0GTN.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/E6/J9TZR9BPAR6HGJH9UG0GTN.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/D/AX/HNEKKHG19DBWJM7SHHJEMW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/D/A4/ZSO0663VE1LWCN90O2P102.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/D/2N/ETLGIJR2Q5Z4CDXG94RE4V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/HQ/VNT73DXIYP5A4ECYGJJ19Y.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/8P/KMC7LEMSOXTEDYTUK595XB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/4D/XWJ40ODB2YW1J8XJU78LNU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/3Y/YLBM0J551SW1M5B1D40BSD.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/3Y/YLBM0J551SW1M5B1D40BSD.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/ZG/NJ880TU3X89YO91IMG155W.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/XO/WIU4XRZEQTJGLST089WHGC.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/XO/WIU4XRZEQTJGLST089WHGC.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/NV/JCSOFZQ4LD3PC6P1V005K2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/I3/MSY39LHGY895SC8YVZ3H79.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/GA/TYU22VE4S96RA01Q539MQI.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/GA/TYU22VE4S96RA01Q539MQI.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/4Z/ZR0K3WV7RRDWY4DKUK7Z8I.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/UB/S1ULF6F985CVBLUNGXOOXQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/TF/XBSAMVV41V0JM88ONM5W7E.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/TF/XBSAMVV41V0JM88ONM5W7E.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/QB/NFA8CANCM08TXIU8V10MSR.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/QB/NFA8CANCM08TXIU8V10MSR.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/DU/6SNNN9Z6WXF9N3H4AN57BP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/9/45/B3RBXJ3VFBWZ8D0HNYXCSE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/QN/1KG559EX4D0Y9HQQSB3AVT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/LK/VUVSWWFQD7E45552B2I5E4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/62/UGH9FKDT5A168SWZOE6EEY.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/62/UGH9FKDT5A168SWZOE6EEY.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/5D/IHZ9U24WPT9ZFXE51LJT5V.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/5D/IHZ9U24WPT9ZFXE51LJT5V.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/DS/N5LZFETB2YB9GHKYZH2MHX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/D2/ICXIA7OLPWK055ES57BQ60.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/D2/ICXIA7OLPWK055ES57BQ60.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.24:675][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/74/W48S0S9I2NINO9FEDNVNQY.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/QG/RHI2P2L7KLKFAE68P2ZP2W.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/5/9H/CCWTXSS0DWZOVO8PFAALCR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/5/35/Z86RU61WYP8ZDETYVUPKFV.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/SA/J6Q4EEUS68FIL2JA7VAQSI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/EU/TIT6LVNAVQJIVOCI5VV27K.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/9F/AFD8T0D8S5EMVIY1ED6HXU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/88/AAAD1O4RAAB17N68WN2MEK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/36/TXG3WLV5NUB6GN6XNBLJBX.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/36/TXG3WLV5NUB6GN6XNBLJBX.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/3/2X/BIVYLD7H90KDUF46UVOXGM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/3/1S/QD0O49A7YC95YGVIYBGS6D.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/LU/VVNR3CA7ULR0LOTJYOW4KE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/HX/J6BAVVDMMTSANM42M4Q6FH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/5V/0501YNH9P08R6HVDXD1USZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/1H/NVT2SUWST7IV1VQIFTI2UG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/1/ZI/BMLX1C35CM8BHBX31REWOK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/YB/Z8QI461BOX3E9O8XTEPJMR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/UC/NZ825X4HOFXQDAK8NKRO9V.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/UC/NZ825X4HOFXQDAK8NKRO9V.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/4O/01SGYJBUR316FYLF84QECX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:676][695]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/1C/6WONSWN6A5U41ZJ2DZ1HMY.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.24:721][695]PIE: Server logged in
+[2023.09.29-15.32.24:722][695]PIE: Play in editor total start time 0.549 seconds.
+[2023.09.29-15.32.25:251][710]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.25:501][725]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.25:751][740]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.25:952][752]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.26:152][764]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.26:401][779]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.26:601][791]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.26:802][803]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.27:002][815]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.27:202][827]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.27:401][839]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.829 Y=-3183.251 Z=203.539] for [BP_Bullet_C]
+[2023.09.29-15.32.27:602][851]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.644 Y=-3183.285 Z=203.613] for [BP_Bullet_C]
+[2023.09.29-15.32.27:901][869]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-422.835 Y=-3181.262 Z=203.695] for [BP_Bullet_C]
+[2023.09.29-15.32.28:102][881]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-415.835 Y=-3179.392 Z=203.672] for [BP_Bullet_C]
+[2023.09.29-15.32.28:352][896]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-409.086 Y=-3177.881 Z=203.622] for [BP_Bullet_C]
+[2023.09.29-15.32.28:602][911]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-404.294 Y=-3176.957 Z=203.554] for [BP_Bullet_C]
+[2023.09.29-15.32.28:852][926]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-398.013 Y=-3175.940 Z=203.434] for [BP_Bullet_C]
+[2023.09.29-15.32.29:052][938]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-394.471 Y=-3175.458 Z=203.347] for [BP_Bullet_C]
+[2023.09.29-15.32.29:251][950]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-391.553 Y=-3175.098 Z=203.255] for [BP_Bullet_C]
+[2023.09.29-15.32.29:552][968]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-387.772 Y=-3174.696 Z=203.122] for [BP_Bullet_C]
+[2023.09.29-15.32.29:852][986]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-384.847 Y=-3174.417 Z=202.992] for [BP_Bullet_C]
+[2023.09.29-15.32.30:051][998]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.202 Y=-3174.272 Z=202.910] for [BP_Bullet_C]
+[2023.09.29-15.32.30:252][ 10]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-382.464 Y=-3174.209 Z=202.870] for [BP_Bullet_C]
+[2023.09.29-15.32.30:302][ 13]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=586.113 Y=1254.594 Z=373.498] for [BP_Bullet_C]
+[2023.09.29-15.32.30:452][ 22]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.383 Y=-3174.050 Z=202.756] for [BP_Bullet_C]
+[2023.09.29-15.32.30:651][ 34]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-379.928 Y=-3174.036 Z=202.745] for [BP_Bullet_C]
+[2023.09.29-15.32.30:702][ 37]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=618.010 Y=1258.948 Z=373.826] for [BP_Bullet_C]
+[2023.09.29-15.32.31:102][ 61]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=618.010 Y=1258.948 Z=373.826] for [BP_Bullet_C]
+[2023.09.29-15.32.31:201][ 67]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-379.832 Y=-3174.033 Z=202.743] for [BP_Bullet_C]
+[2023.09.29-15.32.31:402][ 79]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-379.832 Y=-3174.033 Z=202.743] for [BP_Bullet_C]
+[2023.09.29-15.32.31:502][ 85]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=618.010 Y=1258.948 Z=373.826] for [BP_Bullet_C]
+[2023.09.29-15.32.31:601][ 91]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-379.832 Y=-3174.033 Z=202.743] for [BP_Bullet_C]
+[2023.09.29-15.32.31:801][103]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-379.832 Y=-3174.033 Z=202.743] for [BP_Bullet_C]
+[2023.09.29-15.32.32:052][118]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=618.010 Y=1258.948 Z=373.826] for [BP_Bullet_C]
+[2023.09.29-15.32.32:102][121]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-379.832 Y=-3174.033 Z=202.743] for [BP_Bullet_C]
+[2023.09.29-15.32.32:190][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.29-15.32.32:190][124]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tutorial3Scene
+[2023.09.29-15.32.32:203][124]LogWorld: UWorld::CleanupWorld for Tutorial3Scene, bSessionEnded=true, bCleanupResources=true
+[2023.09.29-15.32.32:203][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.29-15.32.32:204][124]LogContentBundle: [Tutorial3Scene(Standalone)] Deleting container.
+[2023.09.29-15.32.32:206][124]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.29-15.32.32:211][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.29-15.32.32:234][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.29-15.32.32:236][124]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.09.29-15.32.32:236][124]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.09.29-15.32.32:239][124]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.09.29-15.32.32:261][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.09.29-15.32.32:298][125]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.09.29-15.32.47:010][952]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-15.32.47:144][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Turret" FILE="D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Content/BP_Turret.uasset" SILENT=true
+[2023.09.29-15.32.47:154][952]LogSavePackage: Moving output files for package: /Game/BP_Turret
+[2023.09.29-15.32.47:155][952]LogSavePackage: Moving 'D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Saved/BP_Turret99122F5749F8B443D741FAA3D4057755.tmp' to 'D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Content/BP_Turret.uasset'
+[2023.09.29-15.32.47:165][952]LogFileHelpers: InternalPromptForCheckoutAndSave took 155 ms (total: 1.01 sec)
+[2023.09.29-15.32.47:166][952]AssetCheck: New page: Asset Save: BP_Turret
+[2023.09.29-15.32.47:166][952]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_Turret.BP_Turret
+[2023.09.29-15.32.49:763][ 87]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.29-15.32.49:770][ 87]LogContentBundle: [Tutorial3Scene(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.29-15.32.49:770][ 87]LogWorldPartition: Display: GenerateStreaming for 'Tutorial3Scene' started...
+[2023.09.29-15.32.49:881][ 87]LogWorldPartition: Display: GenerateStreaming for 'Tutorial3Scene' took 110 ms (total: 1.02 sec)
+[2023.09.29-15.32.49:882][ 87]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.09.29-15.32.49:882][ 87]LogPlayLevel: [PlayLevel] Compiling BP_Turret before play...
+[2023.09.29-15.32.49:928][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.09.29-15.32.49:929][ 87]LogPlayLevel: PlayLevel: Blueprint regeneration took 47 ms (1 blueprints)
+[2023.09.29-15.32.49:929][ 87]PIE: New page: PIE session: Tutorial3Scene (Sep. 29, 2023, 7:32:49 a.m.)
+[2023.09.29-15.32.49:959][ 87]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial3Scene
+[2023.09.29-15.32.49:968][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010395s)
+[2023.09.29-15.32.49:969][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial3Scene.Tutorial3Scene to /Game/UEDPIE_0_Tutorial3Scene.Tutorial3Scene (0.010425s)
+[2023.09.29-15.32.49:986][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.09.29-15.32.49:987][ 87]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.29-15.32.49:987][ 87]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.29-15.32.49:987][ 87]LogAIModule: Creating AISystem for world Tutorial3Scene
+[2023.09.29-15.32.49:988][ 87]LogWorldPartition: ULevel::OnLevelLoaded(Tutorial3Scene)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.29-15.32.49:988][ 87]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.29-15.32.49:988][ 87]LogWorldPartition: UWorldPartition::Initialize : World = Tutorial3Scene, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.29-15.32.49:988][ 87]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.29-15.32.49:991][ 87]LogContentBundle: [Tutorial3Scene(Standalone)] Creating new contrainer.
+[2023.09.29-15.32.49:991][ 87]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 3.42 sec)
+[2023.09.29-15.32.49:991][ 87]LogPlayLevel: PIE: World Init took: (0.004232s)
+[2023.09.29-15.32.49:991][ 87]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.09.29-15.32.49:991][ 87]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.29-15.32.49:991][ 87]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.29-15.32.49:991][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.29-15.32.49:991][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.29-15.32.49:991][ 87]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.29-15.32.49:991][ 87]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.29-15.32.49:991][ 87]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.29-15.32.49:991][ 87]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.29-15.32.49:992][ 87]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.29-15.32.49:992][ 87]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.29-15.32.49:992][ 87]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.29-15.32.49:994][ 87]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.29-15.32.50:033][ 87]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.29-15.32.50:033][ 87]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.29-15.32.50:033][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.29-15.32.50:033][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.29-15.32.50:034][ 87]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.09.29-15.32.50:034][ 87]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.09.29-15.32.50:036][ 87]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.09.29-15.32.50:036][ 87]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.09.29-15.32.50:036][ 87]LogInit: FAudioDevice initialized with ID 7.
+[2023.09.29-15.32.50:036][ 87]LogAudio: Display: Audio Device (ID: 7) registered with world 'Tutorial3Scene'.
+[2023.09.29-15.32.50:036][ 87]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.09.29-15.32.50:038][ 87]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.29-15.32.50:039][ 87]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial3Scene.Tutorial3Scene up for play (max tick rate 60) at 2023.09.29-11.32.50
+[2023.09.29-15.32.50:039][ 87]LogWorld: Bringing up level for play took: 0.001136
+[2023.09.29-15.32.50:042][ 87]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2023.09.29-15.32.50:043][ 87]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2023.09.29-15.32.50:043][ 87]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2023.09.29-15.32.50:046][ 87]LogStreaming: Display: FlushAsyncLoading(): 63 QueuedPackages, 0 AsyncPackages
+[2023.09.29-15.32.50:288][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/F/12/J71GLMN3D2HH4XCJYS499W.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/WC/LA0LW6OVI8JCSKA8296MIZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/PM/EHMUZLHPCGMWTX477UU6CH.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/PM/EHMUZLHPCGMWTX477UU6CH.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/E6/J9TZR9BPAR6HGJH9UG0GTN.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/E6/J9TZR9BPAR6HGJH9UG0GTN.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/D/AX/HNEKKHG19DBWJM7SHHJEMW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/D/A4/ZSO0663VE1LWCN90O2P102.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/D/2N/ETLGIJR2Q5Z4CDXG94RE4V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/HQ/VNT73DXIYP5A4ECYGJJ19Y.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/8P/KMC7LEMSOXTEDYTUK595XB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/4D/XWJ40ODB2YW1J8XJU78LNU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/3Y/YLBM0J551SW1M5B1D40BSD.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/3Y/YLBM0J551SW1M5B1D40BSD.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/ZG/NJ880TU3X89YO91IMG155W.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/XO/WIU4XRZEQTJGLST089WHGC.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/XO/WIU4XRZEQTJGLST089WHGC.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/NV/JCSOFZQ4LD3PC6P1V005K2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/I3/MSY39LHGY895SC8YVZ3H79.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/GA/TYU22VE4S96RA01Q539MQI.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/GA/TYU22VE4S96RA01Q539MQI.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/4Z/ZR0K3WV7RRDWY4DKUK7Z8I.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/UB/S1ULF6F985CVBLUNGXOOXQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/TF/XBSAMVV41V0JM88ONM5W7E.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/TF/XBSAMVV41V0JM88ONM5W7E.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/QB/NFA8CANCM08TXIU8V10MSR.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/QB/NFA8CANCM08TXIU8V10MSR.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/DU/6SNNN9Z6WXF9N3H4AN57BP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/9/45/B3RBXJ3VFBWZ8D0HNYXCSE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/QN/1KG559EX4D0Y9HQQSB3AVT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/LK/VUVSWWFQD7E45552B2I5E4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/62/UGH9FKDT5A168SWZOE6EEY.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/62/UGH9FKDT5A168SWZOE6EEY.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/5D/IHZ9U24WPT9ZFXE51LJT5V.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/5D/IHZ9U24WPT9ZFXE51LJT5V.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/DS/N5LZFETB2YB9GHKYZH2MHX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/D2/ICXIA7OLPWK055ES57BQ60.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/D2/ICXIA7OLPWK055ES57BQ60.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/74/W48S0S9I2NINO9FEDNVNQY.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/QG/RHI2P2L7KLKFAE68P2ZP2W.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/5/9H/CCWTXSS0DWZOVO8PFAALCR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/5/35/Z86RU61WYP8ZDETYVUPKFV.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/SA/J6Q4EEUS68FIL2JA7VAQSI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/EU/TIT6LVNAVQJIVOCI5VV27K.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/9F/AFD8T0D8S5EMVIY1ED6HXU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/88/AAAD1O4RAAB17N68WN2MEK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/36/TXG3WLV5NUB6GN6XNBLJBX.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/36/TXG3WLV5NUB6GN6XNBLJBX.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/3/2X/BIVYLD7H90KDUF46UVOXGM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/3/1S/QD0O49A7YC95YGVIYBGS6D.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/LU/VVNR3CA7ULR0LOTJYOW4KE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/HX/J6BAVVDMMTSANM42M4Q6FH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/5V/0501YNH9P08R6HVDXD1USZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/1H/NVT2SUWST7IV1VQIFTI2UG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/1/ZI/BMLX1C35CM8BHBX31REWOK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/YB/Z8QI461BOX3E9O8XTEPJMR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/UC/NZ825X4HOFXQDAK8NKRO9V.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/UC/NZ825X4HOFXQDAK8NKRO9V.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/4O/01SGYJBUR316FYLF84QECX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:289][ 87]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/1C/6WONSWN6A5U41ZJ2DZ1HMY.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.32.50:335][ 87]PIE: Server logged in
+[2023.09.29-15.32.50:336][ 87]PIE: Play in editor total start time 0.566 seconds.
+[2023.09.29-15.32.50:652][ 89]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.50:794][ 98]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.51:011][111]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.51:211][123]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.51:411][135]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.51:611][147]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.51:911][165]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.32.52:111][177]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.420 Y=-3183.082 Z=203.516] for [BP_Bullet_C]
+[2023.09.29-15.32.52:310][189]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-426.882 Y=-3182.221 Z=203.492] for [BP_Bullet_C]
+[2023.09.29-15.32.52:510][201]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-422.222 Y=-3180.754 Z=203.439] for [BP_Bullet_C]
+[2023.09.29-15.32.52:710][213]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-418.752 Y=-3179.762 Z=203.397] for [BP_Bullet_C]
+[2023.09.29-15.32.52:910][225]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-414.226 Y=-3178.594 Z=203.340] for [BP_Bullet_C]
+[2023.09.29-15.32.53:113][237]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-409.863 Y=-3177.599 Z=203.282] for [BP_Bullet_C]
+[2023.09.29-15.32.53:313][249]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-405.491 Y=-3176.685 Z=203.185] for [BP_Bullet_C]
+[2023.09.29-15.32.53:514][261]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-402.808 Y=-3176.158 Z=203.101] for [BP_Bullet_C]
+[2023.09.29-15.32.53:763][276]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-400.853 Y=-3175.773 Z=203.015] for [BP_Bullet_C]
+[2023.09.29-15.32.54:063][294]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-399.663 Y=-3175.509 Z=202.929] for [BP_Bullet_C]
+[2023.09.29-15.32.54:363][312]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-395.528 Y=-3174.839 Z=202.768] for [BP_Bullet_C]
+[2023.09.29-15.32.54:613][327]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-392.467 Y=-3174.496 Z=202.714] for [BP_Bullet_C]
+[2023.09.29-15.32.54:663][330]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=571.882 Y=1258.921 Z=378.594] for [BP_Bullet_C]
+[2023.09.29-15.32.54:913][345]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-387.622 Y=-3174.066 Z=202.619] for [BP_Bullet_C]
+[2023.09.29-15.32.55:063][354]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=665.155 Y=1275.695 Z=378.460] for [BP_Bullet_C]
+[2023.09.29-15.32.55:213][363]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-384.785 Y=-3173.866 Z=202.549] for [BP_Bullet_C]
+[2023.09.29-15.32.55:514][381]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=715.088 Y=1293.480 Z=375.297] for [BP_Bullet_C]
+[2023.09.29-15.32.55:564][384]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-377.438 Y=-3173.809 Z=202.545] for [BP_Bullet_C]
+[2023.09.29-15.32.55:813][399]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-375.550 Y=-3173.866 Z=202.557] for [BP_Bullet_C]
+[2023.09.29-15.32.56:014][411]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=711.369 Y=1288.567 Z=372.604] for [BP_Bullet_C]
+[2023.09.29-15.32.56:063][414]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-371.235 Y=-3174.081 Z=202.583] for [BP_Bullet_C]
+[2023.09.29-15.32.56:263][426]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-371.235 Y=-3174.081 Z=202.583] for [BP_Bullet_C]
+[2023.09.29-15.32.56:369][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.29-15.32.56:370][431]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tutorial3Scene
+[2023.09.29-15.32.56:382][431]LogWorld: UWorld::CleanupWorld for Tutorial3Scene, bSessionEnded=true, bCleanupResources=true
+[2023.09.29-15.32.56:383][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.29-15.32.56:383][431]LogContentBundle: [Tutorial3Scene(Standalone)] Deleting container.
+[2023.09.29-15.32.56:386][431]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.29-15.32.56:391][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.29-15.32.56:411][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.29-15.32.56:413][431]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.09.29-15.32.56:413][431]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.09.29-15.32.56:415][431]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.09.29-15.32.56:455][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.09.29-15.32.56:492][432]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.09.29-15.33.07:391][ 49]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-15.33.07:508][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Turret" FILE="D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Content/BP_Turret.uasset" SILENT=true
+[2023.09.29-15.33.07:555][ 49]LogSavePackage: Moving output files for package: /Game/BP_Turret
+[2023.09.29-15.33.07:556][ 49]LogSavePackage: Moving 'D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Saved/BP_TurretEA4111B54292816D3C47A38ED01EF5EF.tmp' to 'D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Content/BP_Turret.uasset'
+[2023.09.29-15.33.07:565][ 49]LogFileHelpers: InternalPromptForCheckoutAndSave took 173 ms (total: 1.18 sec)
+[2023.09.29-15.33.07:566][ 49]AssetCheck: New page: Asset Save: BP_Turret
+[2023.09.29-15.33.07:566][ 49]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_Turret.BP_Turret
+[2023.09.29-15.33.15:110][500]LogViewport: Scene viewport resized to 1139x813, mode Windowed.
+[2023.09.29-15.33.34:496][639]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.29-15.33.34:542][640]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.29-15.33.49:196][510]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-15.33.49:291][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Turret" FILE="D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Content/BP_Turret.uasset" SILENT=true
+[2023.09.29-15.33.49:371][510]LogSavePackage: Moving output files for package: /Game/BP_Turret
+[2023.09.29-15.33.49:372][510]LogSavePackage: Moving 'D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Saved/BP_Turret1B126E8649694FB57F3127B1129BA3E8.tmp' to 'D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Content/BP_Turret.uasset'
+[2023.09.29-15.33.49:383][510]LogFileHelpers: InternalPromptForCheckoutAndSave took 186 ms (total: 1.37 sec)
+[2023.09.29-15.33.49:385][510]AssetCheck: New page: Asset Save: BP_Turret
+[2023.09.29-15.33.49:385][510]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_Turret.BP_Turret
+[2023.09.29-15.33.51:902][650]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.29-15.33.51:910][650]LogContentBundle: [Tutorial3Scene(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.29-15.33.51:910][650]LogWorldPartition: Display: GenerateStreaming for 'Tutorial3Scene' started...
+[2023.09.29-15.33.52:020][650]LogWorldPartition: Display: GenerateStreaming for 'Tutorial3Scene' took 110 ms (total: 1.13 sec)
+[2023.09.29-15.33.52:021][650]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.09.29-15.33.52:022][650]LogPlayLevel: [PlayLevel] Compiling BP_Turret before play...
+[2023.09.29-15.33.52:095][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.09.29-15.33.52:098][650]LogPlayLevel: PlayLevel: Blueprint regeneration took 76 ms (1 blueprints)
+[2023.09.29-15.33.52:098][650]PIE: New page: PIE session: Tutorial3Scene (Sep. 29, 2023, 7:33:52 a.m.)
+[2023.09.29-15.33.52:129][650]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial3Scene
+[2023.09.29-15.33.52:143][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014979s)
+[2023.09.29-15.33.52:143][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial3Scene.Tutorial3Scene to /Game/UEDPIE_0_Tutorial3Scene.Tutorial3Scene (0.015011s)
+[2023.09.29-15.33.52:160][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2023.09.29-15.33.52:162][650]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.29-15.33.52:162][650]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.29-15.33.52:162][650]LogAIModule: Creating AISystem for world Tutorial3Scene
+[2023.09.29-15.33.52:162][650]LogWorldPartition: ULevel::OnLevelLoaded(Tutorial3Scene)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.29-15.33.52:162][650]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.29-15.33.52:162][650]LogWorldPartition: UWorldPartition::Initialize : World = Tutorial3Scene, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.29-15.33.52:162][650]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.29-15.33.52:165][650]LogContentBundle: [Tutorial3Scene(Standalone)] Creating new contrainer.
+[2023.09.29-15.33.52:165][650]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 3.43 sec)
+[2023.09.29-15.33.52:165][650]LogPlayLevel: PIE: World Init took: (0.004465s)
+[2023.09.29-15.33.52:165][650]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.09.29-15.33.52:165][650]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.29-15.33.52:165][650]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.29-15.33.52:165][650]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.29-15.33.52:165][650]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.29-15.33.52:165][650]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.29-15.33.52:165][650]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.29-15.33.52:165][650]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.29-15.33.52:165][650]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.29-15.33.52:166][650]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.29-15.33.52:166][650]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.29-15.33.52:166][650]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.29-15.33.52:168][650]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.29-15.33.52:207][650]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.29-15.33.52:207][650]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.29-15.33.52:207][650]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.29-15.33.52:207][650]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.29-15.33.52:209][650]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.09.29-15.33.52:209][650]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.09.29-15.33.52:210][650]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.09.29-15.33.52:211][650]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.09.29-15.33.52:211][650]LogInit: FAudioDevice initialized with ID 8.
+[2023.09.29-15.33.52:211][650]LogAudio: Display: Audio Device (ID: 8) registered with world 'Tutorial3Scene'.
+[2023.09.29-15.33.52:211][650]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2023.09.29-15.33.52:213][650]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.29-15.33.52:214][650]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial3Scene.Tutorial3Scene up for play (max tick rate 60) at 2023.09.29-11.33.52
+[2023.09.29-15.33.52:214][650]LogWorld: Bringing up level for play took: 0.000627
+[2023.09.29-15.33.52:216][650]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2023.09.29-15.33.52:217][650]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2023.09.29-15.33.52:217][650]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/F/12/J71GLMN3D2HH4XCJYS499W.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/WC/LA0LW6OVI8JCSKA8296MIZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/PM/EHMUZLHPCGMWTX477UU6CH.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/PM/EHMUZLHPCGMWTX477UU6CH.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/E6/J9TZR9BPAR6HGJH9UG0GTN.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/E6/J9TZR9BPAR6HGJH9UG0GTN.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/D/AX/HNEKKHG19DBWJM7SHHJEMW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/D/A4/ZSO0663VE1LWCN90O2P102.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/D/2N/ETLGIJR2Q5Z4CDXG94RE4V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/HQ/VNT73DXIYP5A4ECYGJJ19Y.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/8P/KMC7LEMSOXTEDYTUK595XB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/4D/XWJ40ODB2YW1J8XJU78LNU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/3Y/YLBM0J551SW1M5B1D40BSD.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/3Y/YLBM0J551SW1M5B1D40BSD.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/ZG/NJ880TU3X89YO91IMG155W.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/XO/WIU4XRZEQTJGLST089WHGC.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/XO/WIU4XRZEQTJGLST089WHGC.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/NV/JCSOFZQ4LD3PC6P1V005K2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/I3/MSY39LHGY895SC8YVZ3H79.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/GA/TYU22VE4S96RA01Q539MQI.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/GA/TYU22VE4S96RA01Q539MQI.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/4Z/ZR0K3WV7RRDWY4DKUK7Z8I.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/UB/S1ULF6F985CVBLUNGXOOXQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/TF/XBSAMVV41V0JM88ONM5W7E.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/TF/XBSAMVV41V0JM88ONM5W7E.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/QB/NFA8CANCM08TXIU8V10MSR.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/QB/NFA8CANCM08TXIU8V10MSR.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/DU/6SNNN9Z6WXF9N3H4AN57BP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/9/45/B3RBXJ3VFBWZ8D0HNYXCSE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/QN/1KG559EX4D0Y9HQQSB3AVT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/LK/VUVSWWFQD7E45552B2I5E4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/62/UGH9FKDT5A168SWZOE6EEY.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/62/UGH9FKDT5A168SWZOE6EEY.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/5D/IHZ9U24WPT9ZFXE51LJT5V.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/5D/IHZ9U24WPT9ZFXE51LJT5V.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/DS/N5LZFETB2YB9GHKYZH2MHX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/D2/ICXIA7OLPWK055ES57BQ60.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/D2/ICXIA7OLPWK055ES57BQ60.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/74/W48S0S9I2NINO9FEDNVNQY.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/QG/RHI2P2L7KLKFAE68P2ZP2W.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/5/9H/CCWTXSS0DWZOVO8PFAALCR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/5/35/Z86RU61WYP8ZDETYVUPKFV.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/SA/J6Q4EEUS68FIL2JA7VAQSI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/EU/TIT6LVNAVQJIVOCI5VV27K.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/9F/AFD8T0D8S5EMVIY1ED6HXU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/88/AAAD1O4RAAB17N68WN2MEK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/36/TXG3WLV5NUB6GN6XNBLJBX.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/36/TXG3WLV5NUB6GN6XNBLJBX.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/3/2X/BIVYLD7H90KDUF46UVOXGM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/3/1S/QD0O49A7YC95YGVIYBGS6D.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/LU/VVNR3CA7ULR0LOTJYOW4KE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/HX/J6BAVVDMMTSANM42M4Q6FH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:222][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/5V/0501YNH9P08R6HVDXD1USZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:223][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/1H/NVT2SUWST7IV1VQIFTI2UG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:223][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/1/ZI/BMLX1C35CM8BHBX31REWOK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:223][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/YB/Z8QI461BOX3E9O8XTEPJMR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:223][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/UC/NZ825X4HOFXQDAK8NKRO9V.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-15.33.52:223][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/UC/NZ825X4HOFXQDAK8NKRO9V.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-15.33.52:223][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/4O/01SGYJBUR316FYLF84QECX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:223][650]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/1C/6WONSWN6A5U41ZJ2DZ1HMY.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-15.33.52:233][650]LogStreaming: Display: FlushAsyncLoading(): 56 QueuedPackages, 0 AsyncPackages
+[2023.09.29-15.33.52:498][650]PIE: Server logged in
+[2023.09.29-15.33.52:499][650]PIE: Play in editor total start time 0.589 seconds.
+[2023.09.29-15.33.53:084][652]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.33.53:096][653]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.33.53:305][661]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.33.53:608][678]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.33.53:806][690]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.33.54:007][702]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.33.54:257][717]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.33.54:458][729]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.33.54:657][741]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-15.33.54:906][756]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-427.927 Y=-3182.545 Z=203.483] for [BP_Bullet_C]
+[2023.09.29-15.33.55:108][768]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-424.242 Y=-3181.298 Z=203.406] for [BP_Bullet_C]
+[2023.09.29-15.33.55:358][783]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-420.630 Y=-3180.166 Z=203.325] for [BP_Bullet_C]
+[2023.09.29-15.33.55:557][795]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-419.036 Y=-3179.688 Z=203.282] for [BP_Bullet_C]
+[2023.09.29-15.33.55:758][807]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-414.189 Y=-3178.320 Z=203.132] for [BP_Bullet_C]
+[2023.09.29-15.33.56:157][831]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-409.757 Y=-3177.179 Z=202.966] for [BP_Bullet_C]
+[2023.09.29-15.33.56:358][843]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-408.009 Y=-3176.749 Z=202.886] for [BP_Bullet_C]
+[2023.09.29-15.33.56:607][858]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-406.770 Y=-3176.429 Z=202.808] for [BP_Bullet_C]
+[2023.09.29-15.33.56:808][870]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-405.812 Y=-3176.221 Z=202.773] for [BP_Bullet_C]
+[2023.09.29-15.33.57:106][888]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-398.795 Y=-3175.064 Z=202.658] for [BP_Bullet_C]
+[2023.09.29-15.33.57:308][900]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-396.015 Y=-3174.687 Z=202.606] for [BP_Bullet_C]
+[2023.09.29-15.33.57:557][915]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-394.073 Y=-3174.451 Z=202.567] for [BP_Bullet_C]
+[2023.09.29-15.33.57:557][915]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=640.583 Y=1274.910 Z=384.419] for [BP_Bullet_C]
+[2023.09.29-15.33.57:757][927]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-392.197 Y=-3174.245 Z=202.528] for [BP_Bullet_C]
+[2023.09.29-15.33.57:957][939]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-387.521 Y=-3173.943 Z=202.524] for [BP_Bullet_C]
+[2023.09.29-15.33.57:958][939]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=690.154 Y=1285.842 Z=379.039] for [BP_Bullet_C]
+[2023.09.29-15.33.58:157][951]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-382.944 Y=-3173.832 Z=202.558] for [BP_Bullet_C]
+[2023.09.29-15.33.58:357][963]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=689.488 Y=1281.879 Z=375.700] for [BP_Bullet_C]
+[2023.09.29-15.33.58:457][969]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-379.059 Y=-3173.900 Z=202.633] for [BP_Bullet_C]
+[2023.09.29-15.33.58:758][987]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-382.654 Y=-3174.007 Z=202.704] for [BP_Bullet_C]
+[2023.09.29-15.33.58:807][990]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=615.555 Y=1260.260 Z=375.537] for [BP_Bullet_C]
+[2023.09.29-15.33.59:107][  8]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-384.249 Y=-3174.035 Z=202.698] for [BP_Bullet_C]
+[2023.09.29-15.33.59:258][ 17]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=613.491 Y=1260.143 Z=375.758] for [BP_Bullet_C]
+[2023.09.29-15.33.59:307][ 20]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-384.249 Y=-3174.035 Z=202.698] for [BP_Bullet_C]
+[2023.09.29-15.33.59:557][ 35]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-384.249 Y=-3174.035 Z=202.698] for [BP_Bullet_C]
+[2023.09.29-15.33.59:656][ 41]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=613.491 Y=1260.143 Z=375.758] for [BP_Bullet_C]
+[2023.09.29-15.33.59:758][ 47]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-384.249 Y=-3174.035 Z=202.698] for [BP_Bullet_C]
+[2023.09.29-15.33.59:956][ 59]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-384.249 Y=-3174.035 Z=202.698] for [BP_Bullet_C]
+[2023.09.29-15.34.00:057][ 65]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=613.491 Y=1260.143 Z=375.758] for [BP_Bullet_C]
+[2023.09.29-15.34.00:174][ 72]LogCharacterMovement: BP_FPCharacter_C_0 is stuck and failed to move! Velocity: X=116.38 Y=-118.53 Z=0.00 Location: X=1132.53 Y=755.68 Z=88.11 Normal: X=-0.14 Y=0.90 Z=-0.40 PenetrationDepth:14.925 Actor:BP_Bullet_C_38 Component:Sphere BoneName:None (0 other events since notify)
+[2023.09.29-15.34.00:257][ 77]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.449 Y=-3173.935 Z=202.633] for [BP_Bullet_C]
+[2023.09.29-15.34.00:457][ 89]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.474 Y=-3174.019 Z=202.700] for [BP_Bullet_C]
+[2023.09.29-15.34.00:608][ 98]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=616.745 Y=1260.379 Z=375.454] for [BP_Bullet_C]
+[2023.09.29-15.34.00:757][107]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.474 Y=-3174.019 Z=202.700] for [BP_Bullet_C]
+[2023.09.29-15.34.00:958][119]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.474 Y=-3174.019 Z=202.700] for [BP_Bullet_C]
+[2023.09.29-15.34.01:007][122]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=616.745 Y=1260.379 Z=375.454] for [BP_Bullet_C]
+[2023.09.29-15.34.01:157][131]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.474 Y=-3174.019 Z=202.700] for [BP_Bullet_C]
+[2023.09.29-15.34.01:406][146]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=616.745 Y=1260.379 Z=375.454] for [BP_Bullet_C]
+[2023.09.29-15.34.01:457][149]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.474 Y=-3174.019 Z=202.700] for [BP_Bullet_C]
+[2023.09.29-15.34.01:506][152]LogCharacterMovement: BP_FPCharacter_C_0 is stuck and failed to move! Velocity: X=44.77 Y=-51.54 Z=0.00 Location: X=1134.00 Y=755.33 Z=88.34 Normal: X=-0.01 Y=0.02 Z=-1.00 PenetrationDepth:18.317 Actor:BP_Bullet_C_50 Component:Sphere BoneName:None (0 other events since notify)
+[2023.09.29-15.34.01:656][161]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.418 Y=-3174.018 Z=202.701] for [BP_Bullet_C]
+[2023.09.29-15.34.01:807][170]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=617.064 Y=1260.381 Z=375.403] for [BP_Bullet_C]
+[2023.09.29-15.34.01:856][173]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.353 Y=-3174.017 Z=202.701] for [BP_Bullet_C]
+[2023.09.29-15.34.02:208][194]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=618.445 Y=1260.170 Z=374.957] for [BP_Bullet_C]
+[2023.09.29-15.34.02:356][203]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-382.371 Y=-3174.011 Z=202.710] for [BP_Bullet_C]
+[2023.09.29-15.34.02:607][218]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=618.445 Y=1260.170 Z=374.957] for [BP_Bullet_C]
+[2023.09.29-15.34.02:657][221]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-382.371 Y=-3174.011 Z=202.710] for [BP_Bullet_C]
+[2023.09.29-15.34.02:906][236]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-382.371 Y=-3174.011 Z=202.710] for [BP_Bullet_C]
+[2023.09.29-15.34.03:058][245]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=618.445 Y=1260.170 Z=374.957] for [BP_Bullet_C]
+[2023.09.29-15.34.03:207][254]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.714 Y=-3174.047 Z=202.719] for [BP_Bullet_C]
+[2023.09.29-15.34.03:458][269]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.957 Y=-3174.051 Z=202.717] for [BP_Bullet_C]
+[2023.09.29-15.34.03:458][269]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=607.272 Y=1258.815 Z=375.383] for [BP_Bullet_C]
+[2023.09.29-15.34.03:707][284]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.957 Y=-3174.051 Z=202.717] for [BP_Bullet_C]
+[2023.09.29-15.34.03:909][296]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=607.272 Y=1258.815 Z=375.383] for [BP_Bullet_C]
+[2023.09.29-15.34.03:958][299]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.957 Y=-3174.051 Z=202.717] for [BP_Bullet_C]
+[2023.09.29-15.34.04:157][311]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.957 Y=-3174.051 Z=202.717] for [BP_Bullet_C]
+[2023.09.29-15.34.04:357][323]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=607.272 Y=1258.815 Z=375.383] for [BP_Bullet_C]
+[2023.09.29-15.34.04:458][329]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.957 Y=-3174.051 Z=202.717] for [BP_Bullet_C]
+[2023.09.29-15.34.04:708][344]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.957 Y=-3174.051 Z=202.717] for [BP_Bullet_C]
+[2023.09.29-15.34.04:758][347]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=607.272 Y=1258.815 Z=375.383] for [BP_Bullet_C]
+[2023.09.29-15.34.05:157][371]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=607.272 Y=1258.815 Z=375.383] for [BP_Bullet_C]
+[2023.09.29-15.34.05:250][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.29-15.34.05:250][375]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tutorial3Scene
+[2023.09.29-15.34.05:263][375]LogWorld: UWorld::CleanupWorld for Tutorial3Scene, bSessionEnded=true, bCleanupResources=true
+[2023.09.29-15.34.05:264][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.29-15.34.05:264][375]LogContentBundle: [Tutorial3Scene(Standalone)] Deleting container.
+[2023.09.29-15.34.05:266][375]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.29-15.34.05:272][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.29-15.34.05:299][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.29-15.34.05:299][375]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2023.09.29-15.34.05:299][375]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.09.29-15.34.05:301][375]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.09.29-15.34.05:326][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.09.29-15.34.05:363][376]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.09.29-15.35.06:217][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.09.29-15.35.06:280][703]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Tutorial3Scene/4/B8/D2TWKN9YEZMYK3J8LI7XUE_Auto2
+[2023.09.29-15.35.06:281][703]LogSavePackage: Moving 'D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Saved/D2TWKN9YEZMYK3J8LI7XUE_Auto277FBC8714215AA7ABD4B0E8123F65D52.tmp' to 'D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Saved/Autosaves/Game/__ExternalActors__/Tutorial3Scene/4/B8/D2TWKN9YEZMYK3J8LI7XUE_Auto2.uasset'
+[2023.09.29-15.35.06:284][703]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Tutorial3Scene' took 0.083
+[2023.09.29-15.35.06:284][703]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.083
+[2023.09.29-16.03.48:901][733]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-16.03.48:989][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Turret" FILE="D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Content/BP_Turret.uasset" SILENT=true
+[2023.09.29-16.03.49:001][733]LogSavePackage: Moving output files for package: /Game/BP_Turret
+[2023.09.29-16.03.49:092][733]LogSavePackage: Moving 'D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Saved/BP_Turret15F9E57F48BECDE8830F1782B0DE65BB.tmp' to 'D:/GDW 5/Tutorial1DilanMian/DMianTutorialTwo/Content/BP_Turret.uasset'
+[2023.09.29-16.03.49:104][733]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms (total: 1.57 sec)
+[2023.09.29-16.03.49:105][733]AssetCheck: New page: Asset Save: BP_Turret
+[2023.09.29-16.03.49:105][733]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_Turret.BP_Turret
+[2023.09.29-16.03.50:729][826]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.29-16.03.50:737][826]LogContentBundle: [Tutorial3Scene(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.29-16.03.50:737][826]LogWorldPartition: Display: GenerateStreaming for 'Tutorial3Scene' started...
+[2023.09.29-16.03.50:845][826]LogWorldPartition: Display: GenerateStreaming for 'Tutorial3Scene' took 108 ms (total: 1.23 sec)
+[2023.09.29-16.03.50:847][826]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.09.29-16.03.50:847][826]LogPlayLevel: [PlayLevel] Compiling BP_Turret before play...
+[2023.09.29-16.03.50:895][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.09.29-16.03.50:898][826]LogPlayLevel: PlayLevel: Blueprint regeneration took 50 ms (1 blueprints)
+[2023.09.29-16.03.50:898][826]PIE: New page: PIE session: Tutorial3Scene (Sep. 29, 2023, 8:03:50 a.m.)
+[2023.09.29-16.03.50:898][826]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial3Scene
+[2023.09.29-16.03.50:912][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014864s)
+[2023.09.29-16.03.50:912][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial3Scene.Tutorial3Scene to /Game/UEDPIE_0_Tutorial3Scene.Tutorial3Scene (0.014894s)
+[2023.09.29-16.03.50:929][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.09.29-16.03.50:930][826]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.29-16.03.50:930][826]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.29-16.03.50:930][826]LogAIModule: Creating AISystem for world Tutorial3Scene
+[2023.09.29-16.03.50:931][826]LogWorldPartition: ULevel::OnLevelLoaded(Tutorial3Scene)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.29-16.03.50:931][826]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.29-16.03.50:931][826]LogWorldPartition: UWorldPartition::Initialize : World = Tutorial3Scene, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.29-16.03.50:931][826]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.29-16.03.50:934][826]LogContentBundle: [Tutorial3Scene(Standalone)] Creating new contrainer.
+[2023.09.29-16.03.50:934][826]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 3.43 sec)
+[2023.09.29-16.03.50:934][826]LogPlayLevel: PIE: World Init took: (0.004319s)
+[2023.09.29-16.03.50:934][826]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.09.29-16.03.50:934][826]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.29-16.03.50:934][826]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.29-16.03.50:934][826]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.29-16.03.50:934][826]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.29-16.03.50:934][826]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.29-16.03.50:934][826]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.29-16.03.50:934][826]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.29-16.03.50:934][826]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.29-16.03.50:935][826]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.29-16.03.50:935][826]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.29-16.03.50:935][826]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.29-16.03.50:937][826]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.29-16.03.50:977][826]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.29-16.03.50:977][826]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.29-16.03.50:977][826]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.29-16.03.50:977][826]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.29-16.03.50:978][826]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.09.29-16.03.50:978][826]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.09.29-16.03.50:980][826]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.09.29-16.03.50:980][826]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.09.29-16.03.50:980][826]LogInit: FAudioDevice initialized with ID 9.
+[2023.09.29-16.03.50:980][826]LogAudio: Display: Audio Device (ID: 9) registered with world 'Tutorial3Scene'.
+[2023.09.29-16.03.50:980][826]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2023.09.29-16.03.50:983][826]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.29-16.03.50:983][826]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial3Scene.Tutorial3Scene up for play (max tick rate 60) at 2023.09.29-12.03.50
+[2023.09.29-16.03.50:983][826]LogWorld: Bringing up level for play took: 0.000640
+[2023.09.29-16.03.50:985][826]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2023.09.29-16.03.50:987][826]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2023.09.29-16.03.50:987][826]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/F/12/J71GLMN3D2HH4XCJYS499W.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/WC/LA0LW6OVI8JCSKA8296MIZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/PM/EHMUZLHPCGMWTX477UU6CH.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/PM/EHMUZLHPCGMWTX477UU6CH.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/E6/J9TZR9BPAR6HGJH9UG0GTN.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/E/E6/J9TZR9BPAR6HGJH9UG0GTN.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/D/AX/HNEKKHG19DBWJM7SHHJEMW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/D/A4/ZSO0663VE1LWCN90O2P102.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/D/2N/ETLGIJR2Q5Z4CDXG94RE4V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/HQ/VNT73DXIYP5A4ECYGJJ19Y.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/8P/KMC7LEMSOXTEDYTUK595XB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/4D/XWJ40ODB2YW1J8XJU78LNU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/3Y/YLBM0J551SW1M5B1D40BSD.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/C/3Y/YLBM0J551SW1M5B1D40BSD.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/ZG/NJ880TU3X89YO91IMG155W.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/XO/WIU4XRZEQTJGLST089WHGC.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/XO/WIU4XRZEQTJGLST089WHGC.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/NV/JCSOFZQ4LD3PC6P1V005K2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/I3/MSY39LHGY895SC8YVZ3H79.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/GA/TYU22VE4S96RA01Q539MQI.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/GA/TYU22VE4S96RA01Q539MQI.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/B/4Z/ZR0K3WV7RRDWY4DKUK7Z8I.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/UB/S1ULF6F985CVBLUNGXOOXQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/TF/XBSAMVV41V0JM88ONM5W7E.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/TF/XBSAMVV41V0JM88ONM5W7E.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/QB/NFA8CANCM08TXIU8V10MSR.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-16.03.50:992][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/QB/NFA8CANCM08TXIU8V10MSR.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/A/DU/6SNNN9Z6WXF9N3H4AN57BP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/9/45/B3RBXJ3VFBWZ8D0HNYXCSE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/QN/1KG559EX4D0Y9HQQSB3AVT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/LK/VUVSWWFQD7E45552B2I5E4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/62/UGH9FKDT5A168SWZOE6EEY.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/62/UGH9FKDT5A168SWZOE6EEY.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/5D/IHZ9U24WPT9ZFXE51LJT5V.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/8/5D/IHZ9U24WPT9ZFXE51LJT5V.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/DS/N5LZFETB2YB9GHKYZH2MHX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/D2/ICXIA7OLPWK055ES57BQ60.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/D2/ICXIA7OLPWK055ES57BQ60.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/7/74/W48S0S9I2NINO9FEDNVNQY.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/QG/RHI2P2L7KLKFAE68P2ZP2W.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/6/24/5JAQ4X9OFWXCXP9F623EQ6.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/5/9H/CCWTXSS0DWZOVO8PFAALCR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/5/35/Z86RU61WYP8ZDETYVUPKFV.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/SA/J6Q4EEUS68FIL2JA7VAQSI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/EU/TIT6LVNAVQJIVOCI5VV27K.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/9F/AFD8T0D8S5EMVIY1ED6HXU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/88/AAAD1O4RAAB17N68WN2MEK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/36/TXG3WLV5NUB6GN6XNBLJBX.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/4/36/TXG3WLV5NUB6GN6XNBLJBX.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/3/2X/BIVYLD7H90KDUF46UVOXGM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/3/1S/QD0O49A7YC95YGVIYBGS6D.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/LU/VVNR3CA7ULR0LOTJYOW4KE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/HX/J6BAVVDMMTSANM42M4Q6FH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/5V/0501YNH9P08R6HVDXD1USZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/2/1H/NVT2SUWST7IV1VQIFTI2UG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/1/ZI/BMLX1C35CM8BHBX31REWOK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/YB/Z8QI461BOX3E9O8XTEPJMR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/UC/NZ825X4HOFXQDAK8NKRO9V.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/UC/NZ825X4HOFXQDAK8NKRO9V.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/4O/01SGYJBUR316FYLF84QECX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.50:993][826]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Tutorial3Scene/0/1C/6WONSWN6A5U41ZJ2DZ1HMY.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.09.29-16.03.51:003][826]LogStreaming: Display: FlushAsyncLoading(): 56 QueuedPackages, 0 AsyncPackages
+[2023.09.29-16.03.51:269][826]PIE: Server logged in
+[2023.09.29-16.03.51:269][826]PIE: Play in editor total start time 0.532 seconds.
+[2023.09.29-16.03.52:013][840]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-16.03.52:264][855]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-16.03.52:463][867]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-16.03.52:664][879]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-16.03.52:963][897]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-16.03.53:163][909]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-16.03.53:463][927]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.562 Y=-3183.129 Z=203.515] for [BP_Bullet_C]
+[2023.09.29-16.03.53:663][939]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-428.776 Y=-3182.831 Z=203.489] for [BP_Bullet_C]
+[2023.09.29-16.03.53:914][954]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-426.917 Y=-3182.146 Z=203.426] for [BP_Bullet_C]
+[2023.09.29-16.03.54:213][972]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-418.883 Y=-3179.718 Z=203.336] for [BP_Bullet_C]
+[2023.09.29-16.03.54:464][987]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-413.605 Y=-3178.352 Z=203.260] for [BP_Bullet_C]
+[2023.09.29-16.03.54:713][  2]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-408.499 Y=-3177.167 Z=203.146] for [BP_Bullet_C]
+[2023.09.29-16.03.55:213][ 32]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-402.386 Y=-3175.901 Z=202.946] for [BP_Bullet_C]
+[2023.09.29-16.03.55:713][ 62]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-397.528 Y=-3175.074 Z=202.786] for [BP_Bullet_C]
+[2023.09.29-16.03.55:914][ 74]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-392.293 Y=-3174.485 Z=202.717] for [BP_Bullet_C]
+[2023.09.29-16.03.56:114][ 86]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-389.113 Y=-3174.206 Z=202.668] for [BP_Bullet_C]
+[2023.09.29-16.03.56:463][107]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-385.195 Y=-3173.926 Z=202.587] for [BP_Bullet_C]
+[2023.09.29-16.03.56:713][122]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-379.764 Y=-3173.870 Z=202.611] for [BP_Bullet_C]
+[2023.09.29-16.03.56:964][137]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-379.601 Y=-3173.877 Z=202.616] for [BP_Bullet_C]
+[2023.09.29-16.03.57:169][149]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-379.788 Y=-3173.883 Z=202.621] for [BP_Bullet_C]
+[2023.09.29-16.03.57:419][164]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.03.57:670][179]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.03.58:020][200]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.03.58:419][224]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.03.58:719][242]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.03.58:920][254]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.03.59:120][266]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.03.59:670][299]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.03.59:870][311]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.00:120][326]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.00:320][338]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.00:770][365]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.01:170][389]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.01:370][401]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.01:570][413]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.01:771][425]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.01:970][437]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.02:270][455]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.02:470][467]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.02:770][485]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.03:020][500]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.03:270][515]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.03:470][527]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.03:720][542]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.03:920][554]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.04:220][572]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.04:420][584]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.04:621][596]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.04:820][608]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.05:020][620]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.05:221][632]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.05:520][650]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.05:770][665]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.06:021][680]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.06:221][692]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.06:421][704]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.06:820][728]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.07:021][740]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.07:271][755]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.07:571][773]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.07:822][788]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.08:122][806]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.08:321][818]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.08:572][833]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.08:821][848]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.09:021][860]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.09:222][872]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.09:622][896]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.10:026][920]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.10:376][941]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.10:576][953]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.10:776][965]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.10:976][977]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.11:226][992]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.11:676][ 19]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.11:878][ 31]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.12:129][ 46]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.12:428][ 64]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.12:628][ 76]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.12:828][ 88]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.13:028][100]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.13:229][112]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.13:478][127]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.13:828][148]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.14:229][172]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.14:429][184]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.14:629][196]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.320 Y=-3173.901 Z=202.636] for [BP_Bullet_C]
+[2023.09.29-16.04.14:712][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.29-16.04.14:712][198]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tutorial3Scene
+[2023.09.29-16.04.14:735][198]LogWorld: UWorld::CleanupWorld for Tutorial3Scene, bSessionEnded=true, bCleanupResources=true
+[2023.09.29-16.04.14:737][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.29-16.04.14:737][198]LogContentBundle: [Tutorial3Scene(Standalone)] Deleting container.
+[2023.09.29-16.04.14:740][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.29-16.04.14:746][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.29-16.04.14:767][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.29-16.04.14:770][198]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2023.09.29-16.04.14:770][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.09.29-16.04.14:772][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.09.29-16.04.14:813][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.09.29-16.04.14:849][199]LogPlayLevel: Display: Destroying online subsystem :Context_14
